@@ -8,7 +8,7 @@ import { AppComponent } from './app.component';
 import { PostCreateComponent } from './posts/post-create/post-create.component';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
+  imports:      [ BrowserModule, FormsModule, MatInputModule ],
   declarations: [ AppComponent, PostCreateComponent ],
   bootstrap:    [ AppComponent ]
 })
